@@ -17,7 +17,7 @@ const Task = ({ taskObj, onComplete }) => {
       <h3>{taskObj.title}</h3>
       <div className="deadline">
         son teslim:{" "}
-        <span className={future ? "bg-[#ffd9d4]" : "bg-[#fff]"}>
+        <span className={future ? "bg-[#ffd9d4]" : "bg-[#96b7f3]"}>
           {remainingDay}
         </span>
       </div>
